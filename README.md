@@ -1,14 +1,32 @@
-# DESCRIPTION
-A website that helps users share interesting blogs. Besides that, other users also could interact with these blogs by commenting or using like.
+# Blog app (backend)
+- A website that helps users share interesting blogs. Besides, other users could also interact with these blogs by commenting or using likes
+- Tech: ExpressJS, MongoDB, Jest
 
-## Tech
-ExpressJS, MongoDB
+[[_TOC_]]
 
-## Commands
-Start by running `npm install` inside the project folder
-`npm start` to run the backend app
-`npm run dev` to run the backend app as dev mode
-`npm run lint` to run eslint
+# Versions
+- Node: v16.20.2
 
-## In local host
-It is opened at port 3001
+# Backend development
+
+## Install backend dependencies
+```shell
+$ npm install
+```
+
+## Run backend
+```shell
+$ npm start # it is opened at port 3001
+$ npm run dev # to run the backend app in dev mode (with hot reload)
+```
+
+## Run unit test
+```shell
+$ npm run test
+```
+
+## Format code
+```shell
+$ npm run lint
+$ npm run lint:fix
+```
